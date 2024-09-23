@@ -1,0 +1,128 @@
+body {
+    border-left: 5px lightgray;
+    font-family: sans-serif;
+    max-width: 1000px;
+    margin: auto;
+    font-family: 'Nunito', sans-serif;
+ }
+ 
+header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+ }
+
+main {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+ } 
+
+ footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+ }
+ 
+h1 {
+    color: tomato;
+    font-size: 40px;
+    font-weight: 100;   
+    margin: 0px;
+}
+
+h4 {
+    font-family: 'nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    margin: 0px;
+}
+
+h3 {
+    color: lightgrey;
+    font-family: 'nunito', sans-serif;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 100;
+    font-family: 'nunito', sans-serif;
+    margin: 0px;
+}
+
+.navigation {
+    color: lightgray;
+    text-decoration: underline;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.navigation a {
+    color: lightgrey;
+}
+
+img {
+    width: 100%;
+}
+
+.continue {
+    color: tomato;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    float: right;
+    font-weight: bold;
+}
+
+hr {
+    height: 1px;
+    color: lightgray;
+    background: lightgray;
+    font-size: 0;
+    border: 5px;
+    float: center;
+}
+
+p::first-letter {
+    font-size: 65px;
+    float: left;
+    color: lightgrey;
+    line-height: 1;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.bottom-nav {
+    color: tomato;
+    font-weight: 100%;
+    padding: 6px;
+    text-decoration: underline;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.bottom-nav a {
+    color: tomato;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 100;
+    color: lightgray;
+}
+
